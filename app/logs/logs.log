@@ -322,3 +322,15 @@ DEBUG - Thread-12 starting ->  -
 DEBUG - Create socket -> 10.23.232.2:100 - 1s 
 DEBUG - Thread-12 starting ->  -  
 2026-04-07 11:39:58 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-07 12:08:06 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-07 12:08:06 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-07 12:11:42 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-07 12:11:42 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-07 12:11:48 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-07 12:11:48 - ERROR - Timeout exceeded -> 10.23.232.2:100 
