@@ -1,0 +1,46 @@
+2026-04-22 11:07:58 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:07:58 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:11:12 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:11:12 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:11:30 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:11:30 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:12:14 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:12:14 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:13:51 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:13:51 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:14:39 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:14:39 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:16:32 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:16:32 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:18:04 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:18:04 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 11:26:21 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 11:26:21 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 12:11:38 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 12:11:38 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 12:11:38 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.2.2.0')]"} - port target : {'[1, 22]'} - threads 100
+2026-04-22 12:13:01 - INFO - Scan - scan started ->  ip target : 10.23.232.2 - port target : 100 - threads 100
+DEBUG - Create socket -> 10.23.232.2:100 - 1s 
+DEBUG - Thread-12 starting ->  -  
+2026-04-22 12:13:01 - ERROR - Timeout exceeded -> 10.23.232.2:100 
+2026-04-22 12:13:01 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.2.2.1'), IPv4Address('192.2.2.2'), IPv4Address('192.2.2.3'), IPv4Address('192.2.2.4'), IPv4Address('192.2.2.5'), IPv4Address('192.2.2.6')]"} - port target : {'[1, 22]'} - threads 100
