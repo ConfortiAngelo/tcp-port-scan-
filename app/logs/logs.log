@@ -1,0 +1,107 @@
+2026-05-11 11:52:22 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.97'), IPv4Address('192.168.56.98'), IPv4Address('192.168.56.99'), IPv4Address('192.168.56.100'), IPv4Address('192.168.56.101'), IPv4Address('192.168.56.102')]"} - port target : {'[22, 342]'}
+2026-05-11 11:52:24 - DEBUG - Create socket -> IP:Port 192.168.56.97:22 - State : Closed - Service : ssh
+2026-05-11 11:52:24 - DEBUG - Create socket -> IP:Port 192.168.56.97:342 - State : Closed - Service : unknown
+2026-05-11 11:52:26 - DEBUG - Create socket -> IP:Port 192.168.56.98:22 - State : Closed - Service : ssh
+2026-05-11 11:52:26 - DEBUG - Create socket -> IP:Port 192.168.56.98:342 - State : Closed - Service : unknown
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.99:22 - State : Closed - Service : ssh
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.99:342 - State : Closed - Service : unknown
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.100:22 - State : Closed - Service : ssh
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.100:342 - State : Closed - Service : unknown
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : Closed - Service : unknown
+2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:52:30 - DEBUG - Create socket -> IP:Port 192.168.56.102:22 - State : Closed - Service : ssh
+2026-05-11 11:52:30 - DEBUG - Create socket -> IP:Port 192.168.56.102:342 - State : Closed - Service : unknown
+2026-05-11 11:53:48 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 11:53:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : Closed - Service : unknown
+2026-05-11 11:53:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:54:41 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 11:54:41 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
+2026-05-11 11:54:41 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:56:39 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
+2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:57:29 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
+2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : ssh(banner)
+2026-05-11 11:59:48 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
+2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
+2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 11:59:57 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
+2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
+2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:01:30 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
+2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
+2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:02:01 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
+2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
+2026-05-11 12:03:02 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
+2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
+2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:04:33 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:07:32 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:07:32 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:07:32 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:08:33 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:08:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:08:49 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : HTTP
+2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:09:13 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:09:24 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:10:51 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 12:10:51 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:10:51 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:11:14 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 12:11:14 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:11:14 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:11:26 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 12:11:26 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:11:26 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:11:43 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
+2026-05-11 12:11:43 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:11:43 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:11:55 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:12:20 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:12:31 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:14:55 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
+2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:16:21 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444, 912]'}
+2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:912 - State : OPEN - Service : unknownftp
+2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:16:38 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444, 912, 123]'}
+2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:123 - State : Closed - Service : unknown
+2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
+2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
+2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
+2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:912 - State : OPEN - Service : unknownftp
