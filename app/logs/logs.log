@@ -1,107 +1,92 @@
-2026-05-11 11:52:22 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.97'), IPv4Address('192.168.56.98'), IPv4Address('192.168.56.99'), IPv4Address('192.168.56.100'), IPv4Address('192.168.56.101'), IPv4Address('192.168.56.102')]"} - port target : {'[22, 342]'}
-2026-05-11 11:52:24 - DEBUG - Create socket -> IP:Port 192.168.56.97:22 - State : Closed - Service : ssh
-2026-05-11 11:52:24 - DEBUG - Create socket -> IP:Port 192.168.56.97:342 - State : Closed - Service : unknown
-2026-05-11 11:52:26 - DEBUG - Create socket -> IP:Port 192.168.56.98:22 - State : Closed - Service : ssh
-2026-05-11 11:52:26 - DEBUG - Create socket -> IP:Port 192.168.56.98:342 - State : Closed - Service : unknown
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.99:22 - State : Closed - Service : ssh
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.99:342 - State : Closed - Service : unknown
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.100:22 - State : Closed - Service : ssh
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.100:342 - State : Closed - Service : unknown
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : Closed - Service : unknown
-2026-05-11 11:52:28 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:52:30 - DEBUG - Create socket -> IP:Port 192.168.56.102:22 - State : Closed - Service : ssh
-2026-05-11 11:52:30 - DEBUG - Create socket -> IP:Port 192.168.56.102:342 - State : Closed - Service : unknown
-2026-05-11 11:53:48 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 11:53:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : Closed - Service : unknown
-2026-05-11 11:53:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:54:41 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 11:54:41 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
-2026-05-11 11:54:41 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:56:39 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
-2026-05-11 11:56:39 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:57:29 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknown(banner)
-2026-05-11 11:57:29 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : ssh(banner)
-2026-05-11 11:59:48 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
-2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
-2026-05-11 11:59:48 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 11:59:57 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
-2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
-2026-05-11 11:59:57 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:01:30 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
-2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
-2026-05-11 12:01:30 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:02:01 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
-2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:02:01 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
-2026-05-11 12:03:02 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshTrue
-2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownTrue
-2026-05-11 12:03:02 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:04:33 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:04:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:07:32 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:07:32 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:07:32 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:08:33 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:08:33 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:08:49 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : HTTP
-2026-05-11 12:08:49 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:09:13 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:09:13 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:09:24 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:09:24 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:10:51 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 12:10:51 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:10:51 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:11:14 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 12:11:14 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:11:14 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:11:26 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 12:11:26 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:11:26 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:11:43 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342]'}
-2026-05-11 12:11:43 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:11:43 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:11:55 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:11:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:12:20 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:12:20 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:12:31 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:12:31 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:14:55 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444]'}
-2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:14:55 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:16:21 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444, 912]'}
-2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:912 - State : OPEN - Service : unknownftp
-2026-05-11 12:16:21 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:16:38 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.168.56.101')]"} - port target : {'[22, 342, 444, 912, 123]'}
-2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:123 - State : Closed - Service : unknown
-2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:22 - State : OPEN - Service : sshSSH
-2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:342 - State : OPEN - Service : unknownHTTP
-2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:444 - State : OPEN - Service : sshTrue
-2026-05-11 12:16:38 - DEBUG - Create socket -> IP:Port 192.168.56.101:912 - State : OPEN - Service : unknownftp
+2026-05-13 11:39:05 - INFO - Scan - scan started ->  ip target : {"[IPv4Address('192.0.0.1'), IPv4Address('192.1.1.1'), IPv4Address('192.1.1.2'), IPv4Address('192.1.1.3'), IPv4Address('192.1.1.4'), IPv4Address('192.1.1.5'), IPv4Address('192.1.1.6')]"} - port target : {'[20, 30, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]'}
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:53 - State : Filtered - Service : dns
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:07 - DEBUG - Create socket -> IP:Port 192.0.0.1:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:53 - State : Filtered - Service : dns
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:09 - DEBUG - Create socket -> IP:Port 192.1.1.1:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:53 - State : Filtered - Service : dns
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:11 - DEBUG - Create socket -> IP:Port 192.1.1.2:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:53 - State : Filtered - Service : dns
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:13 - DEBUG - Create socket -> IP:Port 192.1.1.3:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:53 - State : Filtered - Service : dns
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:15 - DEBUG - Create socket -> IP:Port 192.1.1.4:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:53 - State : Filtered - Service : dns
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:17 - DEBUG - Create socket -> IP:Port 192.1.1.5:60 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:20 - State : Filtered - Service : ftp-data
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:30 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:50 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:51 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:52 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:53 - State : Filtered - Service : dns
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:54 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:55 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:56 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:57 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:58 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:59 - State : Filtered - Service : unknown
+2026-05-13 11:39:19 - DEBUG - Create socket -> IP:Port 192.1.1.6:60 - State : Filtered - Service : unknown
